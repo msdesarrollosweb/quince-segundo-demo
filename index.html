@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Valentina | Mis 15 Años</title>
+  <meta name="description" content="Invitación digital para fiesta de 15 años con cuenta regresiva, cronograma, ubicación, confirmación de asistencia, galería y dress code." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#7b3ff2" />
+
+  <meta property="og:title" content="Valentina | Mis 15 Años" />
+  <meta property="og:description" content="Te invito a compartir una noche mágica e inolvidable." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/og-quince.svg" />
+
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Menú principal">
+      <a class="brand" href="#inicio" aria-label="Inicio">Vale <span>XV</span></a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line short"></span>
+      </button>
+
+      <div class="nav-menu">
+        <a href="#historia">Sobre mí</a>
+        <a href="#evento">Evento</a>
+        <a href="#cronograma">Cronograma</a>
+        <a href="#confirmar">Confirmar</a>
+        <a href="./galeria.html">Galería</a>
+        <a href="#regalos">Regalos</a>
+      </div>
+    </nav>
+
+    <section class="hero container">
+      <p class="eyebrow">Te invito a celebrar</p>
+      <h1>Valentina</h1>
+      <p class="hero-xv">Mis 15 años</p>
+      <p class="hero-date">Sábado 22 de agosto · 21:00 hs</p>
+      <p class="hero-text">Una noche con luces, música, emoción y momentos inolvidables para compartir con las personas que más quiero.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#confirmar">Confirmar asistencia</a>
+        <a class="btn secondary" href="#evento">Ver ubicación</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="countdown-section">
+      <div class="container">
+        <p class="section-kicker">Falta para la gran noche</p>
+        <div class="countdown" data-event-date="2026-08-22T21:00:00-03:00" aria-live="polite">
+          <div><strong id="days">00</strong><span>Días</span></div>
+          <div><strong id="hours">00</strong><span>Horas</span></div>
+          <div><strong id="minutes">00</strong><span>Min</span></div>
+          <div><strong id="seconds">00</strong><span>Seg</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="historia">
+      <div class="section-title centered">
+        <p class="section-kicker">Sobre mí</p>
+        <h2>Una etapa nueva, una noche para recordar</h2>
+        <p>Estoy feliz de compartir este momento tan especial con mi familia y amigos. Quiero que seas parte de una noche llena de brillo, alegría y recuerdos hermosos.</p>
+      </div>
+
+      <div class="story-list">
+        <article class="story-card">
+          <span>01</span>
+          <div>
+            <h3>Mi momento soñado</h3>
+            <p>Después de imaginarlo tantas veces, llegó el día de celebrar mis 15 rodeada de las personas que quiero.</p>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <span>02</span>
+          <div>
+            <h3>La fiesta</h3>
+            <p>Habrá música, fotos, baile, sorpresas y muchos detalles pensados para disfrutar juntos.</p>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <span>03</span>
+          <div>
+            <h3>Tu presencia</h3>
+            <p>Lo más importante es poder compartir esta noche con vos y guardar un recuerdo inolvidable.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft" id="evento">
+      <div class="container event-layout">
+        <div>
+          <p class="section-kicker">La fiesta</p>
+          <h2>Información del evento</h2>
+          <ul class="event-list">
+            <li><strong>Fecha:</strong> Sábado 22 de agosto de 2026</li>
+            <li><strong>Horario:</strong> 21:00 hs</li>
+            <li><strong>Lugar:</strong> Salón Aurora Eventos</li>
+            <li><strong>Dirección:</strong> Av. del Libertador 1500, Vicente López</li>
+            <li><strong>Dress code:</strong> Elegante / fiesta</li>
+          </ul>
+          <a class="btn primary" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Av.+del+Libertador+1500+Vicente+Lopez">Abrir mapa</a>
+        </div>
+
+        <iframe
+          class="map-frame"
+          title="Ubicación del evento en Google Maps"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Av.%20del%20Libertador%201500%20Vicente%20Lopez&output=embed">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="section container" id="cronograma">
+      <div class="section-title centered">
+        <p class="section-kicker">Cronograma</p>
+        <h2>Así vamos a vivir la noche</h2>
+        <p>Estos son los momentos principales de la fiesta para que no te pierdas nada.</p>
+      </div>
+
+      <div class="timeline" aria-label="Cronograma del evento">
+        <article class="timeline-item">
+          <time datetime="2026-08-22T21:00:00-03:00">21:00 hs</time>
+          <div>
+            <h3>Recepción</h3>
+            <p>Bienvenida de invitados, fotos y primeros momentos para empezar la noche.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <time datetime="2026-08-22T22:00:00-03:00">22:00 hs</time>
+          <div>
+            <h3>Entrada especial</h3>
+            <p>El momento más esperado: ingreso de la cumpleañera y comienzo oficial de la celebración.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <time datetime="2026-08-22T22:30:00-03:00">22:30 hs</time>
+          <div>
+            <h3>Cena y brindis</h3>
+            <p>Compartimos la cena, palabras emotivas y el brindis con familia y amigos.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <time datetime="2026-08-23T00:00:00-03:00">00:00 hs</time>
+          <div>
+            <h3>Vals y momento de velas</h3>
+            <p>Un momento especial, simbólico y lleno de emoción para recordar siempre.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <time datetime="2026-08-23T00:30:00-03:00">00:30 hs</time>
+          <div>
+            <h3>Fiesta y baile</h3>
+            <p>Se abre la pista para bailar, cantar y disfrutar hasta el final.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="confirmar">
+      <div class="rsvp">
+        <div>
+          <p class="section-kicker">RSVP</p>
+          <h2>Confirmá tu asistencia</h2>
+          <p>Completá estos datos para ayudarnos a organizar la fiesta. La confirmación se enviará por WhatsApp.</p>
+        </div>
+
+        <form class="rsvp-form" id="rsvpForm" novalidate>
+          <label>
+            Nombre y apellido
+            <input type="text" name="nombre" maxlength="80" autocomplete="name" required />
+          </label>
+          <label>
+            Cantidad de asistentes
+            <input type="number" name="asistentes" min="1" max="10" required />
+          </label>
+          <label>
+            Menú especial
+            <select name="menu">
+              <option value="No">No</option>
+              <option value="Vegetariano">Vegetariano</option>
+              <option value="Vegano">Vegano</option>
+              <option value="Celíaco">Celíaco</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </label>
+          <label>
+            Mensaje opcional
+            <textarea name="mensaje" maxlength="300" rows="4" placeholder="Dejá un saludo para Vale"></textarea>
+          </label>
+          <button class="btn primary" type="submit">Enviar confirmación</button>
+          <p class="form-note">Los datos no se guardan en esta web. Se envían directamente por WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section container" id="galeria-preview">
+      <div class="gallery-preview">
+        <div>
+          <p class="section-kicker">Galería</p>
+          <h2>Inspiración para una noche mágica</h2>
+          <p>Luces, detalles, flores, brillo y momentos que representan el estilo de esta celebración.</p>
+        </div>
+        <a class="btn primary" href="./galeria.html">Ver galería completa</a>
+      </div>
+    </section>
+
+    <section class="section soft" id="regalos">
+      <div class="container gifts">
+        <p class="section-kicker">Regalos</p>
+        <h2>Tu presencia es el mejor regalo</h2>
+        <p>Si además querés hacerme un obsequio, podés hacerlo mediante transferencia.</p>
+        <div class="gift-box">
+          <p><strong>Alias:</strong> vale.mis15</p>
+          <p><strong>CBU:</strong> 0000003100012345678901</p>
+          <button class="copy-btn" type="button" data-copy="vale.mis15">Copiar alias</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/5491100000000" target="_blank" rel="noopener noreferrer" aria-label="Enviar WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M16.04 3C9.43 3 4.05 8.37 4.05 14.98c0 2.11.55 4.17 1.6 5.98L4 29l8.24-1.62a11.94 11.94 0 0 0 5.73 1.46h.01c6.61 0 11.99-5.37 11.99-11.98A11.9 11.9 0 0 0 26.45 6.5 11.9 11.9 0 0 0 16.04 3Zm0 2.16c2.63 0 5.1 1.02 6.96 2.88a9.77 9.77 0 0 1 2.9 6.94c0 5.42-4.41 9.82-9.82 9.82h-.01a9.8 9.8 0 0 1-5-1.37l-.36-.21-4.9.96.98-4.77-.24-.38a9.78 9.78 0 0 1-1.5-5.05c0-5.42 4.41-9.82 9.99-9.82Zm-4.14 4.64c-.2 0-.51.07-.78.36-.27.29-1.03 1-1.03 2.45 0 1.45 1.05 2.85 1.2 3.05.15.19 2.03 3.25 5.03 4.42 2.49.98 3 .78 3.54.73.54-.05 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.56-.34-.29-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.66.15-.2.29-.76.96-.93 1.15-.17.2-.34.22-.64.07-.29-.15-1.24-.46-2.36-1.46-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.49.1-.2.05-.37-.02-.51-.07-.15-.66-1.59-.9-2.18-.24-.57-.48-.49-.66-.5h-.57Z"/>
+    </svg>
+  </a>
+
+  <footer class="footer">
+    <p>Valentina XV · Con cariño para mis invitados</p>
+  </footer>
+</body>
+</html>

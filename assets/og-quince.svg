@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#240f3b"/><stop offset=".5" stop-color="#7b3ff2"/><stop offset="1" stop-color="#ff8bc8"/></linearGradient>
+    <radialGradient id="shine" cx="50%" cy="25%" r="55%"><stop stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="34" y="34" width="1132" height="562" rx="42" fill="none" stroke="#fff" stroke-opacity=".35"/>
+  <circle cx="940" cy="120" r="190" fill="url(#shine)"/>
+  <text x="600" y="268" font-family="Georgia,serif" font-size="132" text-anchor="middle" fill="#fff">Valentina</text>
+  <text x="600" y="370" font-family="Arial,sans-serif" font-size="54" text-anchor="middle" fill="#ffe4f2" letter-spacing="10">MIS 15 AÑOS</text>
+  <text x="600" y="452" font-family="Arial,sans-serif" font-size="34" text-anchor="middle" fill="#fff">Sábado 22 de agosto · 21:00 hs</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Fondo quinceañera</title>
+  <desc id="desc">Ilustración elegante de una quinceañera con vestido amplio, luces y decoración de fiesta.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#31104e"/>
+      <stop offset="0.45" stop-color="#7b3ff2"/>
+      <stop offset="1" stop-color="#ff8bc8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="28%" r="62%">
+      <stop offset="0" stop-color="#fff3fb" stop-opacity="0.78"/>
+      <stop offset="0.35" stop-color="#ffd2ea" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#160d1f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dress" cx="50%" cy="25%" r="75%">
+      <stop offset="0" stop-color="#fff6fb"/>
+      <stop offset="0.45" stop-color="#ffc4e5"/>
+      <stop offset="1" stop-color="#b35cff"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#160d1f" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#160d1f" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <circle cx="170" cy="145" r="95" fill="#fff" opacity=".12" filter="url(#blur)"/>
+  <circle cx="1390" cy="140" r="135" fill="#ffd2ea" opacity=".22" filter="url(#blur)"/>
+  <circle cx="1320" cy="550" r="105" fill="#fff" opacity=".10" filter="url(#blur)"/>
+  <circle cx="300" cy="650" r="120" fill="#ff6fb7" opacity=".12" filter="url(#blur)"/>
+  <g opacity=".85">
+    <path d="M0 742 C180 690 330 704 510 745 C705 790 910 792 1110 735 C1300 681 1440 690 1600 738 L1600 1000 L0 1000 Z" fill="url(#floor)"/>
+    <path d="M0 756 C190 720 346 723 515 760 C702 801 907 803 1115 754 C1300 710 1450 718 1600 762" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+  </g>
+  <g opacity=".52">
+    <path d="M130 210 C230 170 330 190 420 238" fill="none" stroke="#fff" stroke-opacity=".36" stroke-width="3"/>
+    <path d="M1165 220 C1268 164 1398 184 1490 245" fill="none" stroke="#fff" stroke-opacity=".32" stroke-width="3"/>
+    <g fill="#ffe9f6">
+      <circle cx="165" cy="201" r="6"/><circle cx="225" cy="184" r="5"/><circle cx="285" cy="190" r="7"/><circle cx="355" cy="218" r="5"/>
+      <circle cx="1195" cy="205" r="6"/><circle cx="1265" cy="181" r="5"/><circle cx="1342" cy="186" r="7"/><circle cx="1422" cy="224" r="5"/>
+    </g>
+  </g>
+  <g transform="translate(820 505)" filter="url(#softShadow)">
+    <ellipse cx="0" cy="305" rx="310" ry="58" fill="#160d1f" opacity=".25"/>
+    <path d="M-58 -120 C-84 -96 -95 -53 -75 -16 C-50 29 -12 43 28 28 C76 10 84 -45 58 -92 C37 -130 -20 -150 -58 -120Z" fill="#2a1534" opacity=".76"/>
+    <circle cx="0" cy="-86" r="46" fill="#f6c6a9"/>
+    <path d="M-48 -96 C-35 -151 29 -152 56 -103 C27 -118 3 -117 -16 -104 C-31 -93 -36 -79 -43 -57 C-58 -71 -63 -83 -48 -96Z" fill="#2a1534"/>
+    <path d="M-42 -122 C-26 -154 24 -156 45 -124" fill="none" stroke="#d8b45d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-16 -166 L-5 -141 L19 -166 L18 -136 L48 -151 L31 -123" fill="none" stroke="#ffd98f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-54 -30 C-100 20 -118 98 -113 180 L111 180 C116 94 96 20 52 -30 C20 -16 -20 -16 -54 -30Z" fill="#ffd2ea"/>
+    <path d="M-55 -30 C-43 12 -18 38 0 62 C20 37 43 10 54 -30 C35 -12 -35 -12 -55 -30Z" fill="#ffffff" opacity=".92"/>
+    <path d="M-110 20 C-188 68 -223 135 -238 219" fill="none" stroke="#f6c6a9" stroke-width="18" stroke-linecap="round"/>
+    <path d="M110 20 C188 68 223 135 238 219" fill="none" stroke="#f6c6a9" stroke-width="18" stroke-linecap="round"/>
+    <path d="M-116 160 C-220 246 -300 384 -330 585 L330 585 C300 384 220 246 116 160 C78 188 -78 188 -116 160Z" fill="url(#dress)"/>
+    <path d="M-250 530 C-114 462 117 461 250 530" fill="none" stroke="#fff" stroke-width="24" stroke-opacity=".36" stroke-linecap="round"/>
+    <path d="M-182 306 C-84 350 84 350 182 306" fill="none" stroke="#fff" stroke-width="13" stroke-opacity=".28" stroke-linecap="round"/>
+    <path d="M-96 190 C-68 310 -50 430 -45 570" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="9" stroke-linecap="round"/>
+    <path d="M96 190 C68 310 50 430 45 570" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="9" stroke-linecap="round"/>
+    <g fill="#fff6fb" opacity=".95">
+      <circle cx="-160" cy="315" r="5"/><circle cx="-68" cy="253" r="4"/><circle cx="35" cy="288" r="5"/><circle cx="128" cy="366" r="4"/>
+      <circle cx="-205" cy="452" r="4"/><circle cx="-40" cy="424" r="5"/><circle cx="88" cy="472" r="4"/><circle cx="220" cy="515" r="5"/>
+    </g>
+  </g>
+  <g opacity=".62">
+    <circle cx="580" cy="215" r="4" fill="#fff"/><circle cx="622" cy="180" r="3" fill="#ffd2ea"/><circle cx="680" cy="236" r="5" fill="#fff"/>
+    <circle cx="1050" cy="200" r="4" fill="#fff"/><circle cx="1118" cy="270" r="5" fill="#ffd2ea"/><circle cx="1010" cy="318" r="3" fill="#fff"/>
+    <circle cx="1220" cy="430" r="4" fill="#fff"/><circle cx="430" cy="384" r="5" fill="#fff"/><circle cx="365" cy="510" r="3" fill="#ffd2ea"/>
+  </g>
+</svg>
